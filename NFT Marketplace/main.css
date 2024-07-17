@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: #2B2B2B;
+    font-family: Work Sans; 
+    color: #fff;
+    text-transform: capitalize; 
+    font-weight: 400;
+}
+
+header, section{
+     padding: calc(7.7vw + 10px) calc(10vw - 11px) calc(7.7vw + 10px); /*11--26.4px */
+}
+
+.desktopP , .desktopM{
+    display: none;
+}
+
+p{
+    font-size: 16px;
+    line-height: 160%;
+}
+
+nav{
+    padding: 20px 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu{
+    /* display: flex; */
+    align-items: ce nter;
+    gap: 10px;
+}
+
+nav a{
+    font-weight: 600;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a{
+    padding: 0 20px;
+
+}
+
+.desktop{
+    display: block;
+}
+
+.pinkBut span{
+    font-family: Work Sans; 
+    text-align: center;
+}
+
+.pinkBut{
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 20px; 
+    padding: 18px 30px;
+    background: #A259FF;
+    font-weight: 600;
+    text-align: center;
+}
+header{
+    display: flex;
+    gap: 30px;
+    align-items: start;
+    /* flex-wrap: wrap; */
+}
+
+h1{
+    font-size: calc(4.3vw + 12px);
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize; 
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%; 
+    text-transform: capitalize; 
+}
+
+.mainText , .mainCard{
+    flex-basis: 100%;
+}
+
+header .pinkBut{
+    margin: 30px 0;
+}
+
+.mainImg{
+    /* width: calc(21.5vw + 234.2px); */
+    width: 100%;
+}
+
+.mainAmounts{
+    font-family: Work Sans;
+    display: flex;
+    gap: 30px;
+}
+
+header .familie2{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.mainCard{
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+
+.mainInfo{
+    padding: 20px;
+    display: flex;
+    gap: 10px;   
+    flex-direction: column;
+}
+
+ {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: Work Sans; 
+}
+
+.user{
+    display: flex;
+    gap: 12px;
+    align-items:center
+}
+
+.name{
+    font-family: Work Sans;
+}
+.user a{
+    padding: 0;
+}
+
+h2{
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.trends{
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.preview , .trend{
+    width: 100%;
+}
+
+.trendMores{
+    display: flex;
+    gap: 15px;
+}
+
+.trendMores *{
+    width: 100%;
+}
+.trendMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    background: #A259FF;
+}
+
+h5{
+    font-size: 22px;
+    padding: 12px 0;
+}
+
+.viewR{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;    
+    align-items: end;
+}
+
+.blackButton{
+    text-align: center;
+    background: #2B2B2B;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid var(--Call-to-Action, #A259FF);
+    padding: 20px 50px;
+}
+
+.creators{
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.creator{
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    flex-direction: column;
+    background: #3B3B3B;
+}
+
+.creator img{
+    width: 72%;
+    margin-bottom: 20px;
+}
+
+.info span{
+    font-family: Space Mono; 
+}
+
+.info .title{
+    text-align: center;
+
+}
+
+.gray{
+    color: #858584;
+    font-family: Work Sans; 
+}
+
+
+.familie2{
+    font-family: Space Mono; 
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: 19vw 19vw 19vw 19vw;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+
+
+.categorie{
+    border-radius: 20px;
+    background: #3B3B3B; 
+}
+.categorie img{
+    width: 100%;
+}
+
+.categorie h5{
+    padding: 20px 30px 25px 30px;
+    text-align: center;
+}
+
+.nfts{
+    display: flex;
+    gap: 20px;
+}
+
+.nft .mainInfo{
+    padding: 20px 30px 25px 30px;
+}
+
+.cardCaptions{
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainCard a{
+    padding: 0;
+}
+
+.price .gray , .highest .gray{
+    font-size: 12px;
+    line-height: 110%;
+    color: #858584; 
+}
+
+.nfts .name{
+    font-family: Space Mono;
+}
+
+.auction{
+    background-image: url(img/NFT\ Highlight\(2\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.auction .user{
+    padding-top: 15vw;
+}
+
+.auctionItems {
+    display: grid;
+    grid-template-areas:"a b"
+                        "c b";
+}
+
+.whiteButton{
+    width: 200px;
+    background: #fff;
+    color: #2b2b2b;
+    margin-top: 30px;
+    padding: 22px 50px;
+    border-radius: 20px;
+    font-family: Work Sans; 
+    font-weight: 600;
+}
+
+
+.auctionItems h2{
+    grid-area: a;
+}
+
+.auctionItems button{
+    grid-area: c;
+}
+
+.auctionTimer{
+    grid-area: b;
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.50);
+    backdrop-filter: blur(5px);
+    padding: 30px;
+    width: 240px;
+}
+
+.timer{
+    display: flex;
+    gap: 10px;
+}
+
+.auctionTimer h3{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 120%; /* 45.6px */
+    text-transform: capitalize;
+    text-align: center; 
+}
+
+h4{
+    font-size: 28px;
+    line-height: 140%; /* 39.2px */
+    text-transform: capitalize; 
+    font-weight: 700;
+}
+
+.instructionItems{
+    margin-top: 42px;
+    display: flex;
+    gap: 30px 20px;
+}
+
+.instruction{
+    flex-basis: 100%;
+    background: #3B3B3B;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instruction img{
+    width: 100%;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.instruction p{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footerInput{
+    padding: 16px 20px 19px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+
+}
+
+.signUp{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px ;
+    background: #fff;
+
+}
+
+.subfooter{
+    border-radius: 20px;
+    padding: 60px;
+    background: #3B3B3B;
+    display: grid;
+
+    grid-template-areas: "a b"
+                        " a c";
+    grid-row-gap: 40px;
+    grid-column-gap: 30px;
+}
+
+.subfooter img{
+    grid-area: a;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.subfooterText{
+    grid-area: b;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.lastButton{
+    grid-area: c;
+}
+
+footer{
+    padding: 40px calc(10vw - 11px);
+    background: #3B3B3B;
+}
+
+.footerItems{
+    display: grid;
+    grid-template-areas:  "a b c";
+    grid-column-gap: 35px;
+
+}
+
+
+.footerItem{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    /* flex-basis: 25%; */
+}
+
+.h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: Space Mono; 
+}
+
+.grayFoot{
+    color: #ccc;
+    font-weight: 400;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.corp{
+    padding-top: 20px;
+    margin-top: 20px;
+    font-family: Work Sans;
+    font-size: 12px; 
+    color: #ccc;
+    border-top: 1px solid #858584;
+    font-weight: 110%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.tab{
+    cursor: pointer;
+}
+
+.balanc {
+    vertical-align: super;
+}

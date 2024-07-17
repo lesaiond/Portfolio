@@ -1,0 +1,197 @@
+@media (max-width:1000px) {
+    
+    p{
+        font-size: 22px;
+    }
+
+    header .familie2{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    .cardImg{
+        width: 100%;
+    }
+
+    .desktopP{
+        display: block;
+    }
+
+    .pad{
+        display: none;
+    }
+
+
+    .creators{
+        grid-gap: 30px;  
+        grid-template-columns: 1fr 1fr;
+    }
+
+    
+
+    .creator{
+        width: 90%;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+    .auction{
+        background-image: url(img/NFT\ Highlight1000.png);
+
+    }
+
+
+    .instruction p{
+        font-size: 12px;
+    }
+    .desktop{
+        display: none;
+    }
+
+    .subfooter{
+        padding: 40px;
+    }
+    
+    .signUp{
+        background: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    
+    .footerInput , .footerButton{
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .footerItems{
+        grid-template-areas:"a"
+                            "b"
+                            "c";
+        grid-row-gap: 32px;
+    }
+    footer h2{
+        margin-bottom: 0;
+    }
+
+    h5{
+        font-size: 16px;
+    }
+
+
+    /* grid-column-gap: 80px; */
+}
+
+@media (max-width:700px) {
+
+    .desktopM{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .desktop{
+        margin: 20px auto 0 auto;
+    }
+
+    header{
+        flex-wrap: wrap;
+    }
+    
+    .mainText{
+        flex-basis: 100%;
+    }
+    .mainCard{
+        flex-basis: 100%;
+    }
+
+    .categories{
+        grid-template-columns: 40vw 40vw;
+    }
+    
+    .info .title{
+        text-align: left;
+
+    }
+
+    .nfts{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .familie2{
+        font-size: 12px;
+    }
+
+    .creators{
+        gap: 15px;  
+        grid-template-columns: 1fr;
+        
+    }
+
+    .creator{
+        flex-direction: column;
+    }
+
+    .auction{
+        background-image: url(img/NFT\ Highlight700.png);
+
+    }
+
+    .auctionItems {
+        display: grid;
+        grid-template-areas:"a"
+                            "b"
+                            "c";
+    }
+    
+    .auctionItems h2{
+        grid-area: a;
+    }
+    
+    .auctionItems button{
+        grid-area: c;
+    }
+    
+    .auctionTimer{
+        /* width: 100%;g  */
+        grid-area: b;
+    }
+    
+    .instructionItems{
+        flex-wrap: wrap;
+    }
+
+    .instruction{
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .instruction img{
+        width: 115%;
+    }
+
+    .subfooter{
+        padding: 0;
+        background: none;
+        grid-template-areas: "a "
+                            " b"
+                            "c";
+    }
+
+    .pinkBut{
+        width: 100%;
+    }
+}
+

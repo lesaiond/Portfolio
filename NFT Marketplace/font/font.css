@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Space Mono';
+    src: url('SpaceMono-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Space Mono';
+    src: url('SpaceMono-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('WorkSans-SemiBold.ttf');
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url('WorkSans-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}

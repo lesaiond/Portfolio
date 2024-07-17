@@ -1,0 +1,93 @@
+.tabs{
+    
+    border: none;
+    font-size: 22px;
+}
+
+.name{
+    cursor: pointer;
+}
+
+.filter{
+    border: 1px solid #3B3B3B;
+    padding: 12px 20px;
+    color: #858584;
+    line-height: 140%;
+    border-radius: 20px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row .familie2 , .rank .famiilie2{
+    width: 12vw;
+}
+
+.name{
+    font-size: 22px; 
+    font-weight: 600;
+}
+
+.rank{
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 12px 20px;
+}
+
+.greenText{
+    color: #00AC4F;
+}
+
+.artist{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 600px;
+}
+ol li{
+    margin-top: 20px;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+    .tabs{
+        font-size: 16px;
+    }
+
+    .artist{
+        width: 400px;
+    }
+
+    .nftS{
+        display: none;
+    }
+
+    .volume{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+    .change{
+        display: none;
+    }
+
+    .name{
+        font-size: 16px;
+    }
+
+    .artist img{
+        width: 25px;
+    }
+
+    .row .familie2 , .rank .famiilie2{
+        width: 16vw;
+    }
+}

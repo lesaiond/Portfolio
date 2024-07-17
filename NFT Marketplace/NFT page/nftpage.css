@@ -1,0 +1,151 @@
+section{
+    padding: calc(1.7vw + 10px) calc(10vw - 11px);
+}
+
+section.header{
+    display: grid;
+    grid-template-areas:    "a b"
+                            "c b";
+    /* grid-column-gap: 25vw; */
+    grid-row-gap: 1vw;
+
+}
+
+.nftTitle{
+    grid-area: a;
+}
+
+.nftInfo{
+    grid-area: c;
+}
+
+.caption{
+    margin-bottom: 30px;
+
+}
+
+.auctionTimer{
+    align-self: baseline;
+    grid-area: b;
+}
+
+.user img{
+    border-radius: 20px;
+    width: 24px;
+}
+
+.user{
+    margin-bottom: 15px;
+
+}
+
+.familie2{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+
+section .pinkBut{
+    display: block;
+    width: 75%;
+    text-align: center;
+    /* margin: 40px; */
+}
+
+.timer{
+    justify-content: center;
+}
+
+.creatorName{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+h3 , h4{
+    font-family: Space Mono; 
+}
+
+.nftInfo span{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tagsPannel{
+    margin-top: 20px;
+}
+
+.tags{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.tag{
+    padding: 12px 30px; 
+    background: #3B3B3B;
+    border-radius: 20px;
+    text-transform: uppercase; 
+    font-weight: 600;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center  ;
+}
+
+.nftsPage{
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+
+
+.user .name{
+    font-family: Space Mono; 
+}
+
+
+
+
+@media (max-width:1100px) {
+    .nftsPage{
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .tags{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    section.header{
+        grid-template-areas:    "a"
+                                "b"
+                                "c";
+        grid-row-gap: 20px;
+    }
+
+    .desktop{
+        display: block;
+    }
+}
+
+
+
+@media (max-width:700px) {
+    
+    .nftsPage{
+        grid-template-columns: 1fr;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+}
